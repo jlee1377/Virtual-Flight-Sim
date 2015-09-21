@@ -1,0 +1,119 @@
+﻿[2015.09.09-21.26.22:741][  0]Log file open, 09/09/15 14:26:22
+[2015.09.09-21.26.22:741][  0]LogInit:Display: Running engine for game: SpaceTest
+[2015.09.09-21.26.22:741][  0]LogInit:Display: RandInit(-2051231419) SRandInit(-2051231418).
+[2015.09.09-21.26.22:741][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.09.09-21.26.22:741][  0]LogStats: Stats thread started at 0.310150
+[2015.09.09-21.26.22:741][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.09-21.26.22:741][  0]LogInit: API Version: 2672455
+[2015.09.09-21.26.22:741][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
+[2015.09.09-21.26.22:741][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.09-21.26.22:741][  0]LogInit: Build Configuration: Development
+[2015.09.09-21.26.22:741][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.09.09-21.26.22:741][  0]LogInit: Command line: 
+[2015.09.09-21.26.22:741][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.09.09-21.26.22:741][  0]LogInit: Rocket: 1
+[2015.09.09-21.26.22:760][  0]LogInit: Using libcurl 7.41.0
+[2015.09.09-21.26.22:761][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.09-21.26.22:761][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.09-21.26.22:761][  0]LogInit:  - other features:
+[2015.09.09-21.26.22:761][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.09-21.26.22:761][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.09-21.26.22:761][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.09-21.26.22:761][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.09-21.26.22:761][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.09-21.26.22:761][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.09-21.26.22:761][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.09-21.26.22:761][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.09-21.26.22:761][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.09-21.26.22:761][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.09-21.26.22:780][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.09-21.26.22:795][  0]LogInit: Object subsystem initialized
+[2015.09.09-21.26.22:800][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.09-21.26.22:800][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.09-21.26.22:826][  0]LogInit: Computer: XEPHLAPTOP
+[2015.09.09-21.26.22:826][  0]LogInit: User: Xephos
+[2015.09.09-21.26.22:826][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.09.09-21.26.22:826][  0]LogInit: High frequency timer resolution =2.533201 MHz
+[2015.09.09-21.26.22:826][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.09.09-21.26.22:826][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.09-21.26.22:826][  0]LogMemory: Process Physical Memory: 53.45 MB used, 53.45 MB peak
+[2015.09.09-21.26.22:826][  0]LogMemory: Process Virtual Memory: 55.28 MB used, 55.28 MB peak
+[2015.09.09-21.26.22:826][  0]LogMemory: Physical Memory: 4803.43 MB used, 8115.27 MB total
+[2015.09.09-21.26.22:826][  0]LogMemory: Virtual Memory: 365.45 MB used, 134217728.00 MB total
+[2015.09.09-21.26.22:907][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.09.09-21.26.26:437][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2015.09.09-21.26.26:437][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 4057MB of shared system memory, 1 output[s]
+[2015.09.09-21.26.26:440][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.09-21.26.26:440][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4057MB of shared system memory, 0 output[s]
+[2015.09.09-21.26.26:440][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.09-21.26.26:455][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.09-21.26.26:455][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.09.09-21.26.26:466][  0]LogD3D11RHI: Async texture creation enabled
+[2015.09.09-21.26.26:480][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Xephos/My Cubby/Programming/Games/SpaceTest/Intermediate/Shaders/WorkingDirectory/6428/).
+[2015.09.09-21.26.26:481][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Xephos/My Cubby/Programming/Games/SpaceTest/Intermediate/Shaders/tmp/55A5F3684166D918EFF75E8ED3259DE5/'.
+[2015.09.09-21.26.26:481][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.09-21.26.33:872][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.09.09-21.26.33:901][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.09-21.26.33:936][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.09-21.26.33:963][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.09-21.26.33:985][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.09-21.26.33:998][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.09-21.26.34:015][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.09-21.26.34:033][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.09-21.26.34:045][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.09-21.26.34:063][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.09-21.26.34:078][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.09-21.26.34:093][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.09-21.26.34:094][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.09.09-21.26.34:128][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.09-21.26.34:144][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.09-21.26.34:158][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.09-21.26.34:174][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.09-21.26.34:175][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.09-21.26.34:493][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.09-21.26.35:047][  0]LogDerivedDataCache: Loaded boot cache 0.55s 41MB C:/Users/Xephos/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.09-21.26.35:048][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Xephos/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.09.09-21.26.35:048][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Xephos/My Cubby/Programming/Games/SpaceTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.09-21.26.35:048][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.09-21.26.35:048][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Xephos/My Cubby/Programming/Games/SpaceTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.09-21.26.35:048][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.09-21.26.35:630][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.09-21.26.35:644][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Xephos/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.09-21.26.36:580][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.09-21.26.36:607][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.09-21.26.37:663][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.09-21.26.37:663][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.09-21.26.39:274][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.09-21.27.04:784][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.09-21.27.05:758][  0]LogAssetRegistry: FAssetRegistry took 0.0129 seconds to start up
+[2015.09.09-21.27.06:955][  0]SourceControl: Info Source control is disabled
+[2015.09.09-21.27.07:092][  0]SourceControl: Info Source control is disabled
+[2015.09.09-21.27.07:143][  0]SourceControl: Info Source control is disabled
+[2015.09.09-21.27.07:210][  0]SourceControl: Info Source control is disabled
+[2015.09.09-21.27.08:254][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.09-21.27.08:555][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.09.09-21.27.08:555][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.09.09-21.27.08:765][  0]LogEngine: Initializing Engine...
+[2015.09.09-21.27.08:774][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.09-21.27.08:775][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.09.09-21.27.09:269][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.09-21.27.09:282][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.09-21.27.09:312][  0]LogInit: FAudioDevice initialized.
+[2015.09.09-21.27.09:369][  0]LogDerivedDataCache: Saved boot cache 0.06s 41MB C:/Users/Xephos/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.09-21.27.09:382][  0]LogInit: Texture streaming: Enabled
+[2015.09.09-21.27.09:404][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.09-21.27.09:404][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.09-21.27.09:405][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 3372e5e3432e1bead0dd81af8482452f|1f5b9d506c6f4d29a64241d89b2285bd|c380f580-4ceb-4c6c-8fa9-178a2be2c308
+[2015.09.09-21.27.09:405][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.09-21.27.09:517][  0]LogInit: Transaction tracking system initialized
+[2015.09.09-21.27.09:652][  0]BlueprintLog: New page: Editor Load
+[2015.09.09-21.27.12:908][  0]LocalizationService: Info Localization service is disabled
+[2015.09.09-21.27.13:568][  0]LogConsoleResponse:Display: 
+[2015.09.09-21.27.13:820][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Xephos/My Cubby/Programming/Games/SpaceTest/Content/' took 0.01s
+[2015.09.09-21.27.13:820][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.09-21.27.14:316][  0]SourceControl: Info Source control is disabled
+[2015.09.09-21.27.14:317][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/4.9/FeaturePacks/StarterContent.upack)
+[2015.09.09-21.27.14:326][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2015.09.09-21.27.14:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/Xephos/My Cubby/Programming/Games/SpaceTest/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2015.09.09-21.27.14:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/Xephos/My Cubby/Programming/Games/SpaceTest/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2015.09.09-21.27.14:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/Xephos/My Cubby/Programming/Games/SpaceTest/Content/St
